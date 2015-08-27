@@ -19,7 +19,7 @@ module.exports = {
     ],
     module: {
         loaders: [
-            { test: /\.js$/, loaders: ["react-hot", "babel-loader"], include: __dirname + "/src" },
+            { test: /\.js$/, loaders: ["react-hot", "babel-loader?stage=1"], include: __dirname + "/src" },
         ]
     }
 }

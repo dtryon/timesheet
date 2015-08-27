@@ -1,13 +1,14 @@
 {
-  "name": "react-start",
-  "version": "1.0.0",
-  "description": "ReactJS Hot Loading Start Project",
+  "name": "timesheet",
+  "version": "0.0.1",
+  "description": "timesheet application",
   "main": "src/index.html",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "babel-core": "^5.4.7",
@@ -23,7 +24,9 @@
     "karma-webpack": "1.5.1",
     "node-libs-browser": "^0.5.2",
     "phantomjs": "^1.9.17",
+    "proxyquire": "^1.6.0",
     "react-hot-loader": "^1.2.7",
+    "rewire": "^2.3.4",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.9.0"
   },
@@ -33,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dtryon/react-start.git"
+    "url": "https://github.com/dtryon/timesheet.git"
   },
   "author": "D. Tryon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dtryon/life/issues"
+    "url": "https://github.com/dtryon/timesheet/issues"
   },
-  "homepage": "https://github.com/dtryon/life"
+  "homepage": "https://github.com/dtryon/timesheet"
 }

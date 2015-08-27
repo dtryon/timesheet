@@ -1,3 +1,3 @@
-# react-start
+# timesheet
 
-A ReactJS hot-loading start project.
+Recording days worked.
